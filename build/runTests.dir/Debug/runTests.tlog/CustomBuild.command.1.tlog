@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DOCUMENTS\LAB2-UNIT-TESTS-DAVIDR587-MAIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/usuario/Documents/lab2-unit-tests-davidr587-main -BC:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build --check-stamp-file C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

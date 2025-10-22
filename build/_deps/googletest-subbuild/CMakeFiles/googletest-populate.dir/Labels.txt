@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/7b0bf0ca53931275e619f8bcaadd88d4/googletest-populate.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/fb901388ec2d5970d7ec6d11b768c943/googletest-populate-complete.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-build.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-configure.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-download.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-install.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-mkdir.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-patch.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-test.rule
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/b72d963e24be2b4546ebfe07e36b09f3/googletest-populate-update.rule

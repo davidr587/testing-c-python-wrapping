@@ -1,0 +1,3 @@
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

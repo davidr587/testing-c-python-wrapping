@@ -1,0 +1,1889 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+      Compilaci├│n iniciada a las 22/10/2025 8:31:00.
+      
+      Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:03.46
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/4.2.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/usuario/go/bin/lld-link.com"
+      - "C:/Users/usuario/go/bin/lld-link.exe"
+      - "C:/Users/usuario/go/bin/lld-link"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/mt"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      ENV{INCLUDE}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\ATLMFC\\include"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+      Compilaci├│n iniciada a las 22/10/2025 8:31:04.
+      
+      Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\4.2.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.60
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/4.2.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/usuario/go/bin/lld-link.com"
+      - "C:/Users/usuario/go/bin/lld-link.exe"
+      - "C:/Users/usuario/go/bin/lld-link"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/lld-link"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/usuario/AppData/Local/Python/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/usuario/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/usuario/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/usuario/go/bin/"
+      - "C:/Users/usuario/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Laboratory2/bin/"
+      - "C:/Program Files (x86)/Laboratory2/sbin/"
+      - "C:/Program Files (x86)/Laboratory2/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/VC/vcpackages/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/Roslyn/rc"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Team Tools/DiagnosticsHub/Collector/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
+    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Laboratory2"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Laboratory2"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-lrhio1"
+      binary: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-lrhio1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-lrhio1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ccdf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+        Compilaci├│n iniciada a las 22/10/2025 8:31:06.
+        
+        Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\cmTC_3ccdf.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\Debug\\".
+          Creando directorio "cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ccdf.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\cmTC_3ccdf.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35219 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ccdf.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\cmTC_3ccdf.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\Debug\\cmTC_3ccdf.exe" /INCREMENTAL /ILK:"cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-lrhio1/Debug/cmTC_3ccdf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-lrhio1/Debug/cmTC_3ccdf.lib" /MACHINE:X64  /machine:x64 cmTC_3ccdf.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3ccdf.vcxproj -> C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\Debug\\cmTC_3ccdf.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_3ccdf.dir\\Debug\\cmTC_3ccdf.tlog\\cmTC_3ccdf.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lrhio1\\cmTC_3ccdf.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35219.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-undr0l"
+      binary: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-undr0l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-undr0l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54bd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+        Compilaci├│n iniciada a las 22/10/2025 8:31:08.
+        
+        Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\cmTC_54bd4.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\Debug\\".
+          Creando directorio "cmTC_54bd4.dir\\Debug\\cmTC_54bd4.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_54bd4.dir\\Debug\\cmTC_54bd4.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_54bd4.dir\\Debug\\cmTC_54bd4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_54bd4.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\cmTC_54bd4.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35219 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_54bd4.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\cmTC_54bd4.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\Debug\\cmTC_54bd4.exe" /INCREMENTAL /ILK:"cmTC_54bd4.dir\\Debug\\cmTC_54bd4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-undr0l/Debug/cmTC_54bd4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-undr0l/Debug/cmTC_54bd4.lib" /MACHINE:X64  /machine:x64 cmTC_54bd4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_54bd4.vcxproj -> C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\Debug\\cmTC_54bd4.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_54bd4.dir\\Debug\\cmTC_54bd4.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_54bd4.dir\\Debug\\cmTC_54bd4.tlog\\cmTC_54bd4.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-undr0l\\cmTC_54bd4.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35219.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2177 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14"
+      - "python3"
+      - "python"
+      - "ipy3.14"
+      - "ipy3"
+      - "ipy64"
+      - "ipy32"
+      - "ipy"
+      - "ipy.exe"
+    candidate_directories:
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/REGISTRY-NOTFOUND/Scripts/"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/"
+      - "/REGISTRY-NOTFOUND/net45/"
+      - "/REGISTRY-NOTFOUND/net40/"
+      - "/REGISTRY-NOTFOUND/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "/REGISTRY-NOTFOUND/bin/python3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3.14"
+      - "/REGISTRY-NOTFOUND/bin/python3.com"
+      - "/REGISTRY-NOTFOUND/bin/python3.exe"
+      - "/REGISTRY-NOTFOUND/bin/python3"
+      - "/REGISTRY-NOTFOUND/bin/python.com"
+      - "/REGISTRY-NOTFOUND/bin/python.exe"
+      - "/REGISTRY-NOTFOUND/bin/python"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.14"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy3"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy64"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy32"
+      - "/REGISTRY-NOTFOUND/bin/ipy.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/bin/ipy"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/bin/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python3"
+      - "/REGISTRY-NOTFOUND/Scripts/python.com"
+      - "/REGISTRY-NOTFOUND/Scripts/python.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/python"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.14"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy3"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy64"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy32"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/Scripts/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/python"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.14"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy3"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy64"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy32"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/share/ironpython3.14/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3.14"
+      - "/REGISTRY-NOTFOUND/net45/python3.com"
+      - "/REGISTRY-NOTFOUND/net45/python3.exe"
+      - "/REGISTRY-NOTFOUND/net45/python3"
+      - "/REGISTRY-NOTFOUND/net45/python.com"
+      - "/REGISTRY-NOTFOUND/net45/python.exe"
+      - "/REGISTRY-NOTFOUND/net45/python"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy3"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy64"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy32"
+      - "/REGISTRY-NOTFOUND/net45/ipy.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net45/ipy"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net45/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3.14"
+      - "/REGISTRY-NOTFOUND/net40/python3.com"
+      - "/REGISTRY-NOTFOUND/net40/python3.exe"
+      - "/REGISTRY-NOTFOUND/net40/python3"
+      - "/REGISTRY-NOTFOUND/net40/python.com"
+      - "/REGISTRY-NOTFOUND/net40/python.exe"
+      - "/REGISTRY-NOTFOUND/net40/python"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.14"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy3"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy64"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy32"
+      - "/REGISTRY-NOTFOUND/net40/ipy.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/net40/ipy"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/net40/ipy.exe"
+      - "/REGISTRY-NOTFOUND/python3.14.com"
+      - "/REGISTRY-NOTFOUND/python3.14.exe"
+      - "/REGISTRY-NOTFOUND/python3.14"
+      - "/REGISTRY-NOTFOUND/python3.com"
+      - "/REGISTRY-NOTFOUND/python3.exe"
+      - "/REGISTRY-NOTFOUND/python3"
+      - "/REGISTRY-NOTFOUND/python.com"
+      - "/REGISTRY-NOTFOUND/python.exe"
+      - "/REGISTRY-NOTFOUND/python"
+      - "/REGISTRY-NOTFOUND/ipy3.14.com"
+      - "/REGISTRY-NOTFOUND/ipy3.14.exe"
+      - "/REGISTRY-NOTFOUND/ipy3.14"
+      - "/REGISTRY-NOTFOUND/ipy3.com"
+      - "/REGISTRY-NOTFOUND/ipy3.exe"
+      - "/REGISTRY-NOTFOUND/ipy3"
+      - "/REGISTRY-NOTFOUND/ipy64.com"
+      - "/REGISTRY-NOTFOUND/ipy64.exe"
+      - "/REGISTRY-NOTFOUND/ipy64"
+      - "/REGISTRY-NOTFOUND/ipy32.com"
+      - "/REGISTRY-NOTFOUND/ipy32.exe"
+      - "/REGISTRY-NOTFOUND/ipy32"
+      - "/REGISTRY-NOTFOUND/ipy.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "/REGISTRY-NOTFOUND/ipy"
+      - "/REGISTRY-NOTFOUND/ipy.exe.com"
+      - "/REGISTRY-NOTFOUND/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/python"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy64"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy32"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/bin/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/python"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy64"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy32"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/Scripts/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/python"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy64"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy32"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/share/ironpython3.14/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/python"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy64"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy32"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net45/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/python"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy64"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy32"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/net40/ipy.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python.com"
+    found: "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Laboratory2"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Laboratory2"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2434 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython3.cmake:671 (include)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:250 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:81 (include)"
+    mode: "program"
+    variable: "_Python3_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14_d.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3.14_d"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3_d.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3_d.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python3_d"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python_d.com"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python_d.exe"
+      - "C:/Users/usuario/AppData/Local/Python/pythoncore-3.14-64/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\VCPackages"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\bin\\Roslyn"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\DiagnosticsHub\\Collector"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\usuario\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\usuario\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\usuario\\go\\bin"
+        - "C:\\Users\\usuario\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\usuario\\AppData\\Local\\Python\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Laboratory2"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Laboratory2"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-of2k4d"
+      binary: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-of2k4d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-of2k4d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2fd74.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+        Compilaci├│n iniciada a las 22/10/2025 8:31:17.
+        
+        Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\Debug\\".
+          Creando directorio "cmTC_2fd74.dir\\Debug\\cmTC_2fd74.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_2fd74.dir\\Debug\\cmTC_2fd74.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_2fd74.dir\\Debug\\cmTC_2fd74.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2fd74.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\src.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35219 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2fd74.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\src.c"
+          src.c
+        C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\src.c(1,10): error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of2k4d\\cmTC_2fd74.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-tjoyjv"
+      binary: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-tjoyjv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-tjoyjv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10484.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+        Compilaci├│n iniciada a las 22/10/2025 8:31:19.
+        
+        Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\Debug\\".
+          Creando directorio "cmTC_10484.dir\\Debug\\cmTC_10484.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_10484.dir\\Debug\\cmTC_10484.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_10484.dir\\Debug\\cmTC_10484.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_10484.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\CheckFunctionExists.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35219 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_10484.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\Debug\\cmTC_10484.exe" /INCREMENTAL /ILK:"cmTC_10484.dir\\Debug\\cmTC_10484.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-tjoyjv/Debug/cmTC_10484.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-tjoyjv/Debug/cmTC_10484.lib" /MACHINE:X64  /machine:x64 cmTC_10484.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthreads.lib' [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tjoyjv\\cmTC_10484.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-h6sfz4"
+      binary: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-h6sfz4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-h6sfz4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88cc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.23+b0019275e para .NET Framework
+        Compilaci├│n iniciada a las 22/10/2025 8:31:21.
+        
+        Proyecto "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
+          Creando directorio "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\Debug\\".
+          Creando directorio "cmTC_88cc0.dir\\Debug\\cmTC_88cc0.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_88cc0.dir\\Debug\\cmTC_88cc0.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_88cc0.dir\\Debug\\cmTC_88cc0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_88cc0.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\CheckFunctionExists.c"
+          Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.44.35219 para x64
+          (C) Microsoft Corporation. Todos los derechos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_88cc0.dir\\Debug\\\\" /Fd"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\Debug\\cmTC_88cc0.exe" /INCREMENTAL /ILK:"cmTC_88cc0.dir\\Debug\\cmTC_88cc0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-h6sfz4/Debug/cmTC_88cc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/CMakeFiles/CMakeScratch/TryCompile-h6sfz4/Debug/cmTC_88cc0.lib" /MACHINE:X64  /machine:x64 cmTC_88cc0.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: no se puede abrir el archivo 'pthread.lib' [C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h6sfz4\\cmTC_88cc0.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:01.55
+        
+      exitCode: 1
+...

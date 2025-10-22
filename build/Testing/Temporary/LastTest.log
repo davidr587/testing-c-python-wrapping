@@ -1,0 +1,165 @@
+Start testing: Oct 22 08:31 Hora estándar de Venezuela
+----------------------------------------------------------
+1/6 Testing: WrapAddFunctionTest.NonWrappingNums
+1/6 Test: WrapAddFunctionTest.NonWrappingNums
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapAddFunctionTest.NonWrappingNums" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapAddFunctionTest.NonWrappingNums" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapAddFunctionTest.NonWrappingNums
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapAddFunctionTest
+[ RUN      ] WrapAddFunctionTest.NonWrappingNums
+[       OK ] WrapAddFunctionTest.NonWrappingNums (0 ms)
+[----------] 1 test from WrapAddFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"WrapAddFunctionTest.NonWrappingNums" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapAddFunctionTest.NonWrappingNums" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: WrapAddFunctionTest.WrappingNums
+2/6 Test: WrapAddFunctionTest.WrappingNums
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapAddFunctionTest.WrappingNums" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapAddFunctionTest.WrappingNums" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapAddFunctionTest.WrappingNums
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapAddFunctionTest
+[ RUN      ] WrapAddFunctionTest.WrappingNums
+[       OK ] WrapAddFunctionTest.WrappingNums (0 ms)
+[----------] 1 test from WrapAddFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"WrapAddFunctionTest.WrappingNums" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapAddFunctionTest.WrappingNums" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: WrapMulFunctionTest.NonWrappingMulNums
+3/6 Test: WrapMulFunctionTest.NonWrappingMulNums
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapMulFunctionTest.NonWrappingMulNums" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapMulFunctionTest.NonWrappingMulNums" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapMulFunctionTest.NonWrappingMulNums
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapMulFunctionTest
+[ RUN      ] WrapMulFunctionTest.NonWrappingMulNums
+[       OK ] WrapMulFunctionTest.NonWrappingMulNums (0 ms)
+[----------] 1 test from WrapMulFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"WrapMulFunctionTest.NonWrappingMulNums" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapMulFunctionTest.NonWrappingMulNums" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: WrapMulFunctionTest.WrappingMulNums
+4/6 Test: WrapMulFunctionTest.WrappingMulNums
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapMulFunctionTest.WrappingMulNums" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapMulFunctionTest.WrappingMulNums" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapMulFunctionTest.WrappingMulNums
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapMulFunctionTest
+[ RUN      ] WrapMulFunctionTest.WrappingMulNums
+[       OK ] WrapMulFunctionTest.WrappingMulNums (0 ms)
+[----------] 1 test from WrapMulFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"WrapMulFunctionTest.WrappingMulNums" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapMulFunctionTest.WrappingMulNums" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: WrapShiftFunctionTest.RotateLeft
+5/6 Test: WrapShiftFunctionTest.RotateLeft
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapShiftFunctionTest.RotateLeft" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapShiftFunctionTest.RotateLeft" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapShiftFunctionTest.RotateLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapShiftFunctionTest
+[ RUN      ] WrapShiftFunctionTest.RotateLeft
+[       OK ] WrapShiftFunctionTest.RotateLeft (0 ms)
+[----------] 1 test from WrapShiftFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"WrapShiftFunctionTest.RotateLeft" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapShiftFunctionTest.RotateLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: WrapShiftFunctionTest.RotateWithWrap
+6/6 Test: WrapShiftFunctionTest.RotateWithWrap
+Command: "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/Debug/runTests.exe" "--gtest_filter=WrapShiftFunctionTest.RotateWithWrap" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build
+"WrapShiftFunctionTest.RotateWithWrap" start time: Oct 22 08:31 Hora estándar de Venezuela
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\usuario\Documents\lab2-unit-tests-davidr587-main\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = WrapShiftFunctionTest.RotateWithWrap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WrapShiftFunctionTest
+[ RUN      ] WrapShiftFunctionTest.RotateWithWrap
+[       OK ] WrapShiftFunctionTest.RotateWithWrap (0 ms)
+[----------] 1 test from WrapShiftFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"WrapShiftFunctionTest.RotateWithWrap" end time: Oct 22 08:31 Hora estándar de Venezuela
+"WrapShiftFunctionTest.RotateWithWrap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 22 08:31 Hora estándar de Venezuela

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/runTests[1]_tests.cmake")
+  include("C:/Users/usuario/Documents/lab2-unit-tests-davidr587-main/build/runTests[1]_tests.cmake")
+else()
+  add_test(runTests_NOT_BUILT runTests_NOT_BUILT)
+endif()

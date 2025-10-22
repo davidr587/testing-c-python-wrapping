@@ -1,0 +1,54 @@
+{
+  "tests": 6,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "WrapAddFunctionTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "NonWrappingNums",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 5
+        },
+        {
+          "name": "WrappingNums",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "name": "WrapMulFunctionTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "NonWrappingMulNums",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 13
+        },
+        {
+          "name": "WrappingMulNums",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "WrapShiftFunctionTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "RotateLeft",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 21
+        },
+        {
+          "name": "RotateWithWrap",
+          "file": "C:\\Users\\usuario\\Documents\\lab2-unit-tests-davidr587-main\\tests\\main_test.cpp",
+          "line": 25
+        }
+      ]
+    }
+  ]
+}

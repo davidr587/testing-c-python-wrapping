@@ -1,0 +1,7 @@
+WrapAddFunctionTest.NonWrappingNums 1 0.0189798
+WrapAddFunctionTest.WrappingNums 1 0.0139832
+WrapMulFunctionTest.NonWrappingMulNums 1 0.0131697
+WrapMulFunctionTest.WrappingMulNums 1 0.0131935
+WrapShiftFunctionTest.RotateLeft 1 0.0125792
+WrapShiftFunctionTest.RotateWithWrap 1 0.0125991
+---
